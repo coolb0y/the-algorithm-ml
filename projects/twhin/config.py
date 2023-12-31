@@ -4,7 +4,7 @@ from tml.projects.twhin.models.config import TwhinModelConfig
 from tml.core.config.training import RuntimeConfig, TrainingConfig
 
 import pydantic
-
+# config file for this project
 
 class TwhinConfig(base_config.BaseConfig):
   runtime: RuntimeConfig = pydantic.Field(RuntimeConfig())
