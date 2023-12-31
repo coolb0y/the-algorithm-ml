@@ -8,6 +8,7 @@
     >>> logging.info(f"This prints on all ranks if distributed, otherwise prints normally.", rank=-1)
 
 """
+# temp loggings for rank aware pytorch usage 
 import functools
 from typing import Optional
 
